@@ -24,7 +24,9 @@
   "scripts": {
     "test": "node --test",
     "render": "node scripts/render.mjs",
-    "gallery": "node scripts/gallery.mjs"
+    "gallery": "node scripts/gallery.mjs",
+    "icons:generate": "node scripts/export-icons.mjs",
+    "icons:check": "node scripts/export-icons.mjs --check"
   },
   "peerDependencies": {
     "@eraserlabs/diagrams": "0.1.0"
@@ -43,5 +45,13 @@
     "diagrams",
     "svg",
     "agent-skills"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lossfelt/eraser-diagrams-archimate.git"
+  },
+  "homepage": "https://github.com/Lossfelt/eraser-diagrams-archimate#readme",
+  "bugs": {
+    "url": "https://github.com/Lossfelt/eraser-diagrams-archimate/issues"
+  }
 }

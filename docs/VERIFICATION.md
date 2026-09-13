@@ -29,3 +29,7 @@ Lokalt Git-repo opprettet med main. Ingen remote er satt, og ingen commit eller 
 Fire tester og lokalt Chrome-eksempel bestod etter klargjøringen. npm-pakken ble bygget. GitHub Actions-workflowens YAML og struktur er kontrollert lokalt; selve workflowen er ikke kjørt på GitHub. Workflowen installerer Chromium, kjører tester og rendering og lagrer resultatene som artifacts.
 
 Git ignorerer node_modules, output, lokale cacher, pakkearkiver og miljøfiler. En avgrenset søkekontroll av kildefilene fant ingen vanlige GitHub/OpenAI-tokenmønstre eller private nøkkelblokker; dette er ikke en garanti for at alle typer hemmeligheter oppdages.
+
+## GitHub-kjøring bekreftet 2026-09-13
+
+Første push, commit 8a807ef3c35a63acc21abe4d642d76680a1c650c, bestod [Check library på GitHub](https://github.com/Lossfelt/eraser-diagrams-archimate/actions/runs/34749536226). Dette bekrefter den daværende workflowen på GitHub. Senere lokale endringer i ikon-eksport og CI er ikke inkludert i den kjøringen.
