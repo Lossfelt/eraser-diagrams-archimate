@@ -1,0 +1,47 @@
+{
+  "name": "eraser-archimate-visuals",
+  "version": "0.1.0",
+  "description": "Portable ArchiMate 4 visual vocabulary for @eraserlabs/diagrams",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "src",
+    "scripts",
+    "examples",
+    "icons",
+    "docs",
+    "LICENSE",
+    "README.md",
+    "PLAN.md",
+    "skills",
+    "DEVELOPMENT.md"
+  ],
+  "exports": {
+    ".": "./src/index.js",
+    "./library": "./src/library.js",
+    "./normalizers": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "render": "node scripts/render.mjs",
+    "gallery": "node scripts/gallery.mjs"
+  },
+  "peerDependencies": {
+    "@eraserlabs/diagrams": "0.1.0"
+  },
+  "devDependencies": {
+    "@eraserlabs/diagrams": "0.1.0",
+    "@eraserlabs/resolve": "0.1.0",
+    "playwright": "^1.61.1"
+  },
+  "engines": {
+    "node": ">=22.12"
+  },
+  "keywords": [
+    "archimate",
+    "eraser",
+    "diagrams",
+    "svg",
+    "agent-skills"
+  ]
+}

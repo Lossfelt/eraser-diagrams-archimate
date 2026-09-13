@@ -1,0 +1,45 @@
+{
+  "entities": [
+    {
+      "tag": "AmBusinessActor",
+      "id": "customer",
+      "x": 40,
+      "y": 60,
+      "name": "Customer",
+      "bgColor": "#fff1ba"
+    },
+    {
+      "tag": "AmService",
+      "id": "api",
+      "x": 280,
+      "y": 60,
+      "name": "Order API",
+      "bgColor": "#b9e7ff"
+    },
+    {
+      "tag": "Shape",
+      "id": "stock",
+      "x": 520,
+      "y": 60,
+      "shape": "rectangle",
+      "texts": [{ "text": "Stock Eraser shape" }]
+    }
+  ],
+  "connections": [
+    {
+      "tag": "AmServing",
+      "id": "serves",
+      "from": "api",
+      "to": "customer",
+      "label": "serves"
+    },
+    {
+      "tag": "AmAccess",
+      "id": "access",
+      "from": "api",
+      "to": "stock",
+      "label": "reads / writes",
+      "accessType": "readWrite"
+    }
+  ]
+}
