@@ -53,5 +53,8 @@
   "homepage": "https://github.com/Lossfelt/eraser-diagrams-archimate#readme",
   "bugs": {
     "url": "https://github.com/Lossfelt/eraser-diagrams-archimate/issues"
+  },
+  "overrides": {
+    "sanitize-html": "^2.17.7"
   }
 }
