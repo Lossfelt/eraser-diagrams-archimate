@@ -29,12 +29,12 @@
     "icons:check": "node scripts/export-icons.mjs --check"
   },
   "peerDependencies": {
-    "@eraserlabs/diagrams": "0.4.3"
+    "@eraserlabs/diagrams": "0.5.1"
   },
   "devDependencies": {
-    "@eraserlabs/diagrams": "0.4.3",
-    "@eraserlabs/resolve": "0.4.3",
-    "playwright": "^1.64.1"
+    "@eraserlabs/diagrams": "0.5.1",
+    "@eraserlabs/resolve": "0.5.1",
+    "playwright": "^1.65.0"
   },
   "engines": {
     "node": ">=22.12"
